@@ -1,3 +1,5 @@
+user_id = input("Enter your user id\n")
+user_pass = input("Enter your user passward\n")
 from selenium import webdriver
 import cv2
 import numpy as np
@@ -36,9 +38,11 @@ def predict_char(var):
 # making it in function
 def login():
     user = driver.find_element_by_id("rcmloginuser")
-    user.send_keys("mt1200852")
+    # user.send_keys(    " your user id here"   )          # uncomment it and write your user id in "" if don;t want to type again and again
+    user.send_keys(user_id)                                # comment it if you want to make it automated
     password = driver.find_element_by_id("rcmloginpwd")
-    password.send_keys("836ef764")
+    # password.send_keys(  "your user password here"  )      # uncomment it and write your user passward in "" if don;t want to type again and again
+    password.send_keys(user_pass)                          # comment it if you want to make it automated
     captcha_image = driver.find_element_by_id("captcha_image")
     captcha_image_src = captcha_image.get_attribute("src")
 
@@ -152,3 +156,4 @@ def login():
 
 
 login()
+
