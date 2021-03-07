@@ -3,7 +3,7 @@ This repo is made by Shreyansh Jain and is a submission for Hackathon CampusHack
 (If you just want to know what to do to run it, just read form line 10 and please have all the files at the same location)
 
 This project was in my mind for quiet a few time but I was not having enough motivation to start working upon it. But CampusHack came out to be a great game changer.
-When DevClub IITD gave a assignment to make moodle auto login bot, I was pretty excited to make one for IITD email as well. Hearing of CampusHack I worked really long this weekend and made a bot that can read what is given in image captcha(almost accurate).
+When DevClub IITD gave a assignment to make moodle auto login bot, I was pretty excited to make one for IITD email as well. Hearing of CampusHack I worked really long this weekend and made a bot that can read what is given in image captcha(almost accurate). It then reads the UNREAD mails, makes a text file and stores the unread mail titles in it with date and time and also says the mail title aloud that's the second best part I like the most about it.
 
 In my email bot I used image processing using opencv and neural networks using tensorflow to make a bot to extract the right characters from given captcha. The model is pretty accurate but it may take a few tries before decoding the correct captcha sequence.
 
