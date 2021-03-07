@@ -149,7 +149,10 @@ def login():
                 f = open("IITD_Email Notification.txt", "a")
                 to_write = f"{i}  unread mail says: " + text + "\non: " + str(datetime.now()) + "\n"
                 to_speak = f"{i}       unread mail says: " + text + "\n"
-                speak(to_speak)
+                try:
+                    speak(to_speak)
+                else:
+                    pass
                 f.write(to_write)
                 f.close()
             i += 1
