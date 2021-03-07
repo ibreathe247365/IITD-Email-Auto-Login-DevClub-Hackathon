@@ -5,4 +5,5 @@ pip install numpy
 pip install opencv-python
 pip install selenium
 pip install tensorflow
+pip install pyttsx3
 echo all python modules downloaded
