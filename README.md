@@ -1,6 +1,6 @@
 # IITD-Email-Auto-Login-DevClub-Hackathon
 This repo is made by Shreyansh Jain and is a submission for Hackathon CampusHack 2021
-(If you just want to know what to do to run it, just read form line 10)
+(If you just want to know what to do to run it, just read form line 10 and please have all the files at the same location)
 
 This project was in my mind for quiet a few time but I was not having enough motivation to start working upon it. But CampusHack came out to be a great game changer.
 When DevClub IITD gave a assignment to make moodle auto login bot, I was pretty excited to make one for IITD email as well. Hearing of CampusHack I worked really long this weekend and made a bot that can read what is given in image captcha(almost accurate).
