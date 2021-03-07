@@ -11,4 +11,4 @@ First of all, installing all python pre-requisite for this(hoping you have pytho
 Step 1: You just have to double-click the installer.bat file and it will do all installation work for you(please make sure you have active internet connection and pip correctly installed)
 Step 2: Nothing you are done, to run moodle bot, just double click moodle_login.bat file and for IITD_Email bot run Mail_bot.bat file and watch the magic happen
 
-(Here you need to enter your details in the terminal but can change it in code by commenting and uncommenting lines in code so that you don't have to enter them again and again, for it just comment lines 42 and 45 in IIT-Email_BOT.py and uncomment lines 41 and 44 and write your credentials as shown there)
+(Here you need to enter your details in the terminal but can change it in code by commenting and uncommenting lines in code so that you don't have to enter them again and again, for it just comment lines 1, 2, 42 and 45 in IIT-Email_BOT.py and uncomment lines 41 and 44 and write your credentials as shown there and just opposite for reverse.)
