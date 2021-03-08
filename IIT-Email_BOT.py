@@ -146,12 +146,12 @@ def login():
                 title_mail = driver.find_element_by_xpath("/html/body/div[1]/div[3]/div[4]/table[2]/tbody/tr[" + f"{i}" + "]/td[2]/span[3]/a/span")
                 text = title_mail.get_attribute("innerHTML")
                 print(text)
-                f = open("IITD_Email Notification.txt", "a")
+                f = open("IITD_Email Notification.txt", "w", encoding="utf-8")
                 to_write = f"{i}  unread mail says: " + text + "\non: " + str(datetime.now()) + "\n"
                 to_speak = f"{i}       unread mail says: " + text + "\n"
                 try:
                     speak(to_speak)
-                else:
+                except:
                     pass
                 f.write(to_write)
                 f.close()
